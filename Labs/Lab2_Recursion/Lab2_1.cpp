@@ -2,21 +2,23 @@
 #include <iostream>
 using namespace std;
 
-void foo(int &n)
+void foo(int &num, int &temp)
 {
-	if (n > 0)
+	
+	if (temp <= num)
 	{
-		cout << n << endl;
-		--n;
-		foo(n);
+		cout << temp << endl;
+		++temp;
+		foo(num, temp);
 	}
 
 }
 
 int main(){
 
+	int f = 1;
 	int num = 8;
-	foo(num);
+	foo(num, f);
 
 	return 0;
 }

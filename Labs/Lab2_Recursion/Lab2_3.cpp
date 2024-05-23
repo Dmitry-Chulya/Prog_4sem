@@ -22,7 +22,7 @@ void foo(int &n)
 
 int main(){
 	
-	int n_num = 8;
+	int n_num = 123456789;
 	foo(n_num);
 
 	return 0;

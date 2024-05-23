@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/chulya/Documents/Универ/Прога/Sec_univer/Labs",
-      "program": "/Users/chulya/Documents/Универ/Прога/Sec_univer/Labs/build/Debug/outDebug"
+      "cwd": "/Users/chulya/Documents/Универ/Прога/Sec_univer/Labs/Lab2_Recursion",
+      "program": "/Users/chulya/Documents/Универ/Прога/Sec_univer/Labs/Lab2_Recursion/build/Debug/outDebug"
     }
   ]
 }

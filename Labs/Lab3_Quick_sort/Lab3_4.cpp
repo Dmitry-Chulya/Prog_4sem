@@ -12,7 +12,7 @@ bool compare(const string& a, const string& b) {
 int main() {
 	const int numStudents = 5; 
 
-	string students[numStudents] {
+	string students[numStudents] = {
 		"Чулюков Дмитрий",
 		"Юргин Даниил",
 		"Ипатов Никита",

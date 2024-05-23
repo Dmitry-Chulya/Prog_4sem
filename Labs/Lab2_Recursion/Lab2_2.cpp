@@ -6,23 +6,18 @@ void foo(int &a, int &b)
 {
 	if (a < b)
 	{
-		if (a < b)
-		{
-			cout << a << endl;
-			a++;
-			foo(a, b);
-		}
-	
+		cout << a << endl;
+		a++;
+		foo(a, b);
 	}
+
 	else if (a > b)
 	{
-		if (a > b)
-		{
-			cout << a << endl;
-			a--;
-			foo(a, b);
-		}
+		cout << a << endl;
+		a--;
+		foo(a, b);
 	}
+	
 	else
 	{
 		cout << a << endl;
@@ -32,7 +27,7 @@ void foo(int &a, int &b)
 
 int main(){
 
-	int a = 15;
+	int a = 8;
 	int b = 15;
 	
 	foo(a, b);

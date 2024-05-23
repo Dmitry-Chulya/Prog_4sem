@@ -22,7 +22,7 @@ void foo(int n, int div) {
 
 int main() {
 
-	int number = 521;
+	int number = 21;
 
 	foo(number, 2);
 
